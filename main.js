@@ -175,6 +175,99 @@ if (percentage >= 90) {
 
 
 
+var month = Number(window.prompt("Enter month number"));
+
+switch (month) {
+
+    case 1:
+    case 3:
+    case 5:
+    case 7:
+    case 8:
+    case 10:
+    case 12:
+        console.log("31 Days");
+        break;
+
+    case 4:
+    case 6:
+    case 9:
+    case 11:
+        console.log("30 Days");
+        break;
+
+    case 2:
+        console.log("28 or 29 Days");
+        break;
+
+    default:
+        console.log("Invalid Month");
+}
+
+
+
+var alphabet = window.prompt("Enter an alphabet:")
+
+switch (alphabet) {
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        console.log("The alphabet is a vowel.");
+        break;
+    default:
+        console.log("The alphabet is not a vowel/consonant.");
+}
+
+
+var num = Number(window.prompt("Enter a number:"));
+var num2 = Number(window.prompt("Enter another number:"));
+
+switch (true) {
+
+    case (num > num2):
+        console.log(num + " is greater than " + num2);
+        break;
+    case (num < num2):
+        console.log(num2 + " is greater than " + num);
+        break;
+    default:
+        console.log("Both numbers are equal.");
+}
+
+
+
+
+var num = Number(window.prompt("Enter a number:"));
+
+switch(true) {
+
+case (num % 2 == 0):
+    console.log("The number is even.");
+    break;
+case (num % 2 != 0):
+    console.log("The number is odd.");
+    break;
+default:
+    console.log("its not a number");
+}
+
+
+var num = Number(window.prompt("Enter a number:"));
+
+switch (true) {
+    case (num > 0):
+        console.log("The number is positive.");
+break;
+    case (num < 0):
+        console.log("The number is negative.");
+        break;
+    default:
+        console.log("The number is zero.");
+}
+
+
 
 
 
